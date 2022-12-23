@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: 1.5rem;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+
+}
+
+.rohit {
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/photo-1544830281-1d5169d6b2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1.5rem;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+}
+.navbar ul li a:hover{
+    border: 2px solid white;
+}
+
+.rohitText {
+    color: black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rohitText a {
+    color: black;
+    background-color: skyblue;
+    text-decoration: none;
+    font-weight: 900;
+    padding: 0.5rem 1rem;
+    margin-top: 2.5%;
+    transition: 350ms linear;
+}
+.rohitText a:hover{
+    opacity: 0.3;
+}
